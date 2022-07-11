@@ -1,0 +1,49 @@
+	label	mc	mc_onset	mn_onset
+0	g:KeyMode.MINOR	0	0	0
+1	G:m, inv:0	0	0	0
+2	D:Mm7, inv:0	0	1/4	1/4
+3	Eb:M, inv:0	1	0	0
+4	A:o, inv:1	1	1/4	1/4
+5	D:M, inv:0	2	0	0
+6	D:Mm7, inv:0	2	1/4	1/4
+7	G:m, inv:0	3	0	0
+8	Eb:M, inv:0	5	0	0
+9	A:o, inv:1	5	1/4	1/4
+10	D:M, inv:0	6	0	0
+11	G:m, inv:0	7	0	0
+12	C:m, inv:0	8	0	0
+13	c:KeyMode.MINOR	8	1/4	1/4
+14	G:Mm7, inv:2	8	1/4	1/4
+15	g:KeyMode.MINOR	9	0	0
+16	C:m, inv:1	9	0	0
+17	c:KeyMode.MINOR	9	1/4	1/4
+18	Db:M, inv:1	9	1/4	1/4
+19	G:M, inv:0	10	0	0
+20	g:KeyMode.MINOR	11	0	0
+21	C:m, inv:0	11	0	0
+22	C:mm7, inv:3	11	1/4	1/4
+23	Bb:KeyMode.MAJOR	12	0	0
+24	F:Mm7, inv:1	12	0	0
+25	g:KeyMode.MINOR	13	0	0
+26	Bb:M, inv:0	13	0	0
+27	Bb:MM7, inv:3	13	1/4	1/4
+28	Eb:M, inv:1	14	0	0
+29	A:o, inv:0	15	0	0
+30	A:%7, inv:3	15	1/4	1/4
+31	D:Mm7, inv:1	16	0	0
+32	D:Mm7, inv:0	16	1/4	1/4
+33	Eb:M, inv:0	17	0	0
+34	C:mm7, inv:0	18	0	0
+35	D:Mm7, inv:0	18	1/4	1/4
+36	G:m, inv:0	19	0	0
+37	A:%7, inv:1	19	1/4	1/4
+38	D:M, inv:0	20	0	0
+39	Eb:M, inv:0	21	0	0
+40	A:%7, inv:1	21	1/4	1/4
+41	D:M, inv:0	22	0	0
+42	G:m, inv:1	23	0	0
+43	C:m, inv:0	23	1/4	1/4
+44	D:M, inv:0	24	0	0
+45	C:m, inv:1	24	1/4	1/4
+46	D:M, inv:0	25	0	0
+47	G:m, inv:0	27	0	0

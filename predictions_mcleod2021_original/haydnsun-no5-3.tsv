@@ -1,0 +1,90 @@
+	label	mc	mc_onset	mn_onset
+0	F:KeyMode.MAJOR	0	0	0
+1	F:M, inv:0	0	0	0
+2	G:mm7, inv:3	1	3/8	3/8
+3	C:Mm7, inv:1	2	0	0
+4	F:M, inv:0	3	0	0
+5	G:mm7, inv:2	4	0	0
+6	C:Mm7, inv:0	5	0	0
+7	F:M, inv:0	5	3/8	3/8
+8	Bb:M, inv:0	6	0	0
+9	F:M, inv:2	7	0	0
+10	C:Mm7, inv:0	7	1/4	1/4
+11	F:M, inv:0	7	3/8	3/8
+12	C:Mm7, inv:1	9	0	0
+13	F:M, inv:0	11	0	0
+14	Bb:M, inv:0	12	0	0
+15	G:m, inv:1	12	3/8	3/8
+16	C:Mm7, inv:3	13	0	0
+17	F:M, inv:0	13	3/8	3/8
+18	G:m, inv:0	14	0	0
+19	C:Mm7, inv:1	14	3/8	3/8
+20	F:M, inv:0	14	5/8	5/8
+21	C:Mm7, inv:3	15	0	0
+22	F:M, inv:0	15	3/8	3/8
+23	d:KeyMode.MINOR	17	0	0
+24	A:Mm7, inv:2	17	0	0
+25	D:m, inv:1	17	3/8	3/8
+26	A:M, inv:0	18	1/2	9/8
+27	g:KeyMode.MINOR	18	5/8	5/4
+28	D:Mm7, inv:1	18	5/8	5/4
+29	D:Mm7, inv:3	20	0	5/8
+30	C:KeyMode.MAJOR	20	1/8	3/4
+31	G:M, inv:0	20	1/8	3/4
+32	G:M, inv:1	20	3/8	1
+33	C:M, inv:0	20	5/8	5/4
+34	G:M, inv:0	24	3/8	1
+35	G:Mm7, inv:3	24	5/8	5/4
+36	C:M, inv:0	26	0	5/8
+37	G:Mm7, inv:0	38	1/2	9/8
+38	C:M, inv:0	40	1/8	3/4
+39	A:mm7, inv:0	40	5/8	5/4
+40	G:KeyMode.MAJOR	42	1/8	3/4
+41	F#:o7, inv:1	42	1/8	3/4
+42	D:Mm7, inv:0	42	5/8	5/4
+43	C:KeyMode.MAJOR	44	0	5/8
+44	C:M, inv:0	44	0	5/8
+45	G:Mm7, inv:0	44	1/8	3/4
+46	C:M, inv:1	46	0	5/8
+47	G:Mm7, inv:0	46	1/8	3/4
+48	C:M, inv:1	48	0	5/8
+49	G:Mm7, inv:0	48	1/8	3/4
+50	C:M, inv:0	50	0	5/8
+51	G:Mm7, inv:0	50	5/8	5/4
+52	C:M, inv:1	54	1/8	3/4
+53	D:m, inv:1	54	1/2	9/8
+54	G:M, inv:0	56	1/8	3/4
+55	F:M, inv:0	56	1/2	9/8
+56	G:Mm7, inv:1	58	1/8	3/4
+57	C:M, inv:0	58	1/2	9/8
+58	G:Mm7, inv:3	70	1/2	9/8
+59	G:KeyMode.MAJOR	70	5/8	5/4
+60	D:Mm7, inv:1	70	5/8	5/4
+61	D:KeyMode.MAJOR	74	1/8	3/4
+62	C#:o7, inv:2	74	1/8	3/4
+63	A:M, inv:0	76	1/8	3/4
+64	D:m, inv:1	78	1/8	3/4
+65	A:M, inv:1	80	0	5/8
+66	D:mm7, inv:0	86	1/8	3/4
+67	F:KeyMode.MAJOR	88	1/8	3/4
+68	C:Mm7, inv:2	88	1/8	3/4
+69	F:M, inv:0	90	1/8	3/4
+70	C:M, inv:0	90	1/2	9/8
+71	F:M, inv:0	94	1/2	9/8
+72	C:Mm7, inv:0	96	1/2	9/8
+73	F:M, inv:0	100	1/4	3/4
+74	d:KeyMode.MINOR	100	5/8	9/8
+75	A:Mm7, inv:0	100	5/8	9/8
+76	F:KeyMode.MAJOR	104	0	3/8
+77	C:Mm7, inv:3	104	0	3/8
+78	F:M, inv:0	104	3/8	3/4
+79	G:m, inv:0	106	0	3/8
+80	Bb:M, inv:0	106	1/4	5/8
+81	C:Mm7, inv:3	106	3/8	3/4
+82	F:M, inv:0	108	7/16	3/4
+83	C:Mm7, inv:3	120	7/16	3/4
+84	F:M, inv:0	122	11/16	1
+85	C:Mm7, inv:0	124	7/16	3/4
+86	F:M, inv:0	124	11/16	1
+87	C:Mm7, inv:0	126	7/16	3/4
+88	F:M, inv:0	126	11/16	1

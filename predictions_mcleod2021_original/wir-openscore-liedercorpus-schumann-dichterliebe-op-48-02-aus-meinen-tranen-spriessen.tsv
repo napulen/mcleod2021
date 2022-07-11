@@ -1,0 +1,34 @@
+	label	mc	mc_onset	mn_onset
+0	A:KeyMode.MAJOR	0	0	3/8
+1	A:M, inv:0	0	0	3/8
+2	E:Mm7, inv:0	3	0	0
+3	A:M, inv:0	3	1/4	1/4
+4	E:Mm7, inv:0	4	0	0
+5	A:M, inv:0	4	1/4	1/4
+6	E:Mm7, inv:0	7	0	0
+7	A:M, inv:0	7	1/4	1/4
+8	E:Mm7, inv:0	8	0	0
+9	A:M, inv:1	8	1/4	1/4
+10	E:M, inv:0	8	3/8	3/8
+11	C#:mm7, inv:0	9	1/4	1/4
+12	b:KeyMode.MINOR	10	0	0
+13	A#:o, inv:0	10	0	0
+14	A:KeyMode.MAJOR	11	0	0
+15	B:m, inv:0	11	0	0
+16	G#:%7, inv:0	11	1/4	1/4
+17	f#:KeyMode.MINOR	12	0	0
+18	C#:Mm7, inv:0	12	0	0
+19	D:KeyMode.MAJOR	12	1/4	1/4
+20	A:Mm7, inv:0	12	1/4	1/4
+21	A:M, inv:0	13	0	0
+22	A:Mm7, inv:0	13	1/4	1/4
+23	D:M, inv:0	14	0	0
+24	A:M, inv:0	14	1/4	1/4
+25	A:KeyMode.MAJOR	15	0	0
+26	E:Mm7, inv:0	15	0	0
+27	D:KeyMode.MAJOR	15	1/4	1/4
+28	A:M, inv:0	15	1/4	1/4
+29	A:KeyMode.MAJOR	16	0	0
+30	E:Mm7, inv:0	16	0	0
+31	D:KeyMode.MAJOR	17	0	0
+32	A:M, inv:1	17	0	0

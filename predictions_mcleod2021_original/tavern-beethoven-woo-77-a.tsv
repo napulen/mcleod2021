@@ -1,0 +1,244 @@
+	label	mc	mc_onset	mn_onset
+0	G:KeyMode.MAJOR	0	0	1/4
+1	G:M, inv:0	0	0	1/4
+2	A:m, inv:1	1	0	0
+3	D:Mm7, inv:3	1	1/4	1/4
+4	G:M, inv:0	2	0	0
+5	D:M, inv:0	4	0	0
+6	G:M, inv:0	4	1/4	1/4
+7	A:m, inv:1	5	0	0
+8	D:Mm7, inv:3	5	3/8	3/8
+9	G:M, inv:0	6	0	0
+10	D:M, inv:0	6	1/4	1/4
+11	G:M, inv:0	7	0	0
+12	D:KeyMode.MAJOR	7	1/4	1/4
+13	A:Mm7, inv:0	7	1/4	1/4
+14	D:M, inv:0	8	0	0
+15	G:KeyMode.MAJOR	9	0	0
+16	D:Mm7, inv:2	9	0	0
+17	G:M, inv:0	9	1/4	1/4
+18	D:Mm7, inv:0	10	0	0
+19	G:M, inv:1	11	0	0
+20	D:Mm7, inv:1	11	1/4	1/4
+21	G:M, inv:0	12	0	0
+22	A:m, inv:1	13	0	0
+23	D:Mm7, inv:0	13	3/8	3/8
+24	G:M, inv:0	14	0	0
+25	D:M, inv:0	14	1/4	1/4
+26	G:M, inv:0	15	0	0
+27	D:Mm7, inv:3	15	1/4	1/4
+28	G:M, inv:0	16	0	0
+29	D:Mm7, inv:0	18	0	0
+30	G:M, inv:0	19	0	0
+31	D:M, inv:0	19	1/4	1/4
+32	G:M, inv:0	20	0	0
+33	D:M, inv:0	21	0	0
+34	G:M, inv:0	21	1/4	1/4
+35	A:m, inv:1	22	0	0
+36	D:Mm7, inv:0	22	1/4	1/4
+37	G:M, inv:0	23	0	0
+38	D:M, inv:0	23	1/4	1/4
+39	G:M, inv:0	24	0	0
+40	D:KeyMode.MAJOR	24	3/8	3/8
+41	A:Mm7, inv:0	24	3/8	3/8
+42	D:M, inv:0	25	0	0
+43	B:m, inv:0	25	1/4	1/4
+44	G:KeyMode.MAJOR	26	0	0
+45	D:Mm7, inv:2	26	0	0
+46	D:KeyMode.MAJOR	26	1/4	1/4
+47	G:M, inv:0	26	1/4	1/4
+48	D:M, inv:0	27	0	0
+49	G:KeyMode.MAJOR	27	1/4	1/4
+50	D:Mm7, inv:3	27	1/4	1/4
+51	D:KeyMode.MAJOR	28	0	0
+52	B:m, inv:0	28	0	0
+53	G:KeyMode.MAJOR	28	1/4	1/4
+54	D:Mm7, inv:1	28	1/4	1/4
+55	D:KeyMode.MAJOR	29	0	0
+56	G:M, inv:0	29	0	0
+57	G:KeyMode.MAJOR	30	0	0
+58	A:m, inv:1	30	0	0
+59	D:Mm7, inv:0	30	1/4	1/4
+60	G:M, inv:0	31	0	0
+61	D:M, inv:0	31	1/4	1/4
+62	G:M, inv:0	32	0	0
+63	A:m, inv:1	32	1/4	1/4
+64	D:Mm7, inv:0	32	3/8	3/8
+65	G:M, inv:0	33	0	0
+66	A:m, inv:2	35	0	0
+67	D:Mm7, inv:0	35	1/4	1/4
+68	G:M, inv:0	36	0	0
+69	D:M, inv:0	36	1/4	1/4
+70	G:M, inv:0	37	0	0
+71	D:KeyMode.MAJOR	37	3/8	3/8
+72	C#:%7, inv:0	37	3/8	3/8
+73	G:KeyMode.MAJOR	38	0	0
+74	D:M, inv:0	38	0	0
+75	G:M, inv:0	38	1/4	1/4
+76	A:m, inv:1	39	0	0
+77	D:Mm7, inv:0	39	1/4	1/4
+78	G:M, inv:0	40	0	0
+79	D:M, inv:0	40	1/4	1/4
+80	G:M, inv:0	41	0	0
+81	D:M, inv:0	42	0	0
+82	G:M, inv:1	42	1/4	1/4
+83	D:Mm7, inv:2	43	0	0
+84	D:KeyMode.MAJOR	43	1/4	1/4
+85	C#:%7, inv:0	43	1/4	1/4
+86	G:KeyMode.MAJOR	44	0	0
+87	D:Mm7, inv:0	44	0	0
+88	G:M, inv:1	45	0	0
+89	D:KeyMode.MAJOR	45	1/4	1/4
+90	A:Mm7, inv:2	45	1/4	1/4
+91	G:KeyMode.MAJOR	46	0	0
+92	G:M, inv:0	46	0	0
+93	A:m, inv:1	47	0	0
+94	D:Mm7, inv:0	47	1/4	1/4
+95	G:M, inv:0	48	0	0
+96	D:Mm7, inv:0	48	1/4	1/4
+97	G:M, inv:0	49	0	0
+98	A:m, inv:0	52	0	0
+99	a:KeyMode.MINOR	52	1/4	1/4
+100	E:Mm7, inv:0	52	1/4	1/4
+101	G:KeyMode.MAJOR	52	3/8	3/8
+102	F#:o, inv:0	52	3/8	3/8
+103	G:M, inv:0	53	0	0
+104	D:M, inv:0	53	1/4	1/4
+105	G:M, inv:0	54	0	0
+106	D:M, inv:0	55	0	0
+107	G:M, inv:1	55	1/4	1/4
+108	D:Mm7, inv:2	56	0	0
+109	G:M, inv:0	57	0	0
+110	D:M, inv:2	57	1/4	1/4
+111	G:M, inv:1	58	0	0
+112	D:M, inv:0	59	0	0
+113	G:M, inv:0	60	0	0
+114	D:Mm7, inv:0	61	0	0
+115	G:M, inv:1	62	0	0
+116	D:Mm7, inv:0	62	1/4	1/4
+117	G:M, inv:0	63	0	0
+118	A:m, inv:1	64	0	0
+119	D:Mm7, inv:0	64	1/4	1/4
+120	G:M, inv:0	65	0	0
+121	D:Mm7, inv:0	66	0	0
+122	G:M, inv:0	67	0	0
+123	G:M, inv:1	68	0	0
+124	G:M, inv:0	69	0	0
+125	D:Mm7, inv:2	70	0	0
+126	G:M, inv:1	71	1/4	1/4
+127	D:Mm7, inv:2	72	0	0
+128	G:M, inv:0	73	0	0
+129	D:Mm7, inv:0	74	0	0
+130	G:M, inv:0	75	0	0
+131	G:m, inv:0	75	0	0
+132	A:m, inv:0	77	0	0
+133	C:M, inv:1	77	1/4	1/4
+134	D:M, inv:0	78	0	0
+135	D:KeyMode.MAJOR	79	0	0
+136	C#:o7, inv:2	79	0	0
+137	G:KeyMode.MAJOR	80	0	0
+138	D:M, inv:0	80	0	0
+139	Bb:M, inv:0	80	1/4	1/4
+140	D:Mm7, inv:2	81	0	0
+141	G:m, inv:0	82	0	0
+142	D:M, inv:0	82	1/4	1/4
+143	G:m, inv:1	83	0	0
+144	D:M, inv:0	84	0	0
+145	G:m, inv:0	85	0	0
+146	D:Mm7, inv:0	86	0	0
+147	G:m, inv:0	88	0	0
+148	C:m, inv:1	88	1/4	1/4
+149	Bb:M, inv:1	89	0	0
+150	e:KeyMode.MINOR	89	1/4	1/4
+151	B:Mm7, inv:3	89	1/4	1/4
+152	G:KeyMode.MAJOR	90	0	0
+153	C:m, inv:0	90	0	0
+154	D:M, inv:1	90	1/4	1/4
+155	D:KeyMode.MAJOR	91	0	0
+156	C#:o7, inv:0	91	0	0
+157	G:KeyMode.MAJOR	91	1/4	1/4
+158	D:M, inv:0	91	1/4	1/4
+159	G:M, inv:0	92	0	0
+160	D:Mm7, inv:0	94	1/4	1/4
+161	G:M, inv:0	95	0	0
+162	D:M, inv:0	95	1/4	1/4
+163	G:M, inv:0	96	0	0
+164	D:M, inv:0	97	0	0
+165	G:M, inv:0	97	1/4	1/4
+166	D:Mm7, inv:1	98	1/4	1/4
+167	G:M, inv:0	99	0	0
+168	D:KeyMode.MAJOR	100	0	0
+169	A:Mm7, inv:0	100	0	0
+170	D:M, inv:0	101	0	0
+171	G:KeyMode.MAJOR	103	1/4	1/4
+172	D:Mm7, inv:0	103	1/4	1/4
+173	G:M, inv:0	105	0	0
+174	D:M, inv:0	107	1/4	1/4
+175	G:M, inv:0	108	0	0
+176	D:Mm7, inv:0	108	3/8	3/8
+177	G:M, inv:0	109	0	0
+178	D:Mm7, inv:3	111	0	0
+179	G:M, inv:0	112	0	0
+180	D:M, inv:0	112	1/4	1/4
+181	G:M, inv:0	113	0	0
+182	A:m, inv:1	113	1/4	1/4
+183	D:KeyMode.MAJOR	113	3/8	3/8
+184	C#:o, inv:0	113	3/8	3/8
+185	G:KeyMode.MAJOR	114	0	0
+186	D:M, inv:0	114	0	0
+187	G:M, inv:0	114	1/4	1/4
+188	A:m, inv:1	115	0	0
+189	D:Mm7, inv:0	115	1/4	1/4
+190	G:M, inv:0	116	0	0
+191	D:M, inv:0	116	1/4	1/4
+192	G:M, inv:0	117	0	0
+193	D:M, inv:2	117	1/4	1/4
+194	D:KeyMode.MAJOR	117	3/8	3/8
+195	A:Mm7, inv:0	117	3/8	3/8
+196	G:KeyMode.MAJOR	118	0	0
+197	D:M, inv:0	118	0	0
+198	G:M, inv:0	119	0	0
+199	D:Mm7, inv:0	120	0	0
+200	G:M, inv:1	121	0	0
+201	D:Mm7, inv:0	121	1/4	1/4
+202	G:M, inv:0	122	0	0
+203	D:Mm7, inv:3	123	0	0
+204	G:M, inv:0	124	0	0
+205	D:M, inv:0	124	1/4	1/4
+206	G:M, inv:0	125	0	0
+207	A:m, inv:1	125	1/4	1/4
+208	D:Mm7, inv:0	125	3/8	3/8
+209	G:M, inv:0	126	0	0
+210	D:Mm7, inv:0	128	0	0
+211	G:M, inv:1	129	0	0
+212	D:Mm7, inv:0	129	1/4	1/4
+213	G:M, inv:0	130	0	0
+214	D:Mm7, inv:3	131	0	0
+215	G:M, inv:0	132	0	0
+216	D:M, inv:0	132	1/4	1/4
+217	G:M, inv:0	133	0	0
+218	A:m, inv:1	133	1/4	1/4
+219	D:Mm7, inv:0	133	3/8	3/8
+220	G:M, inv:2	134	0	0
+221	A:m, inv:1	135	0	0
+222	D:Mm7, inv:0	135	1/4	1/4
+223	G:M, inv:0	136	0	0
+224	A:m, inv:1	137	0	0
+225	D:Mm7, inv:0	137	1/4	1/4
+226	G:M, inv:0	138	0	0
+227	A:m, inv:1	139	0	0
+228	D:Mm7, inv:0	139	1/4	1/4
+229	G:M, inv:0	140	0	0
+230	A:m, inv:1	141	0	0
+231	D:Mm7, inv:0	141	1/4	1/4
+232	G:M, inv:0	142	0	0
+233	D:Mm7, inv:0	142	1/4	1/4
+234	G:M, inv:0	143	0	0
+235	D:Mm7, inv:0	143	1/4	1/4
+236	G:M, inv:0	144	0	0
+237	D:Mm7, inv:0	144	1/4	1/4
+238	G:M, inv:0	145	0	0
+239	D:Mm7, inv:0	145	1/4	1/4
+240	G:M, inv:0	146	0	0
+241	D:Mm7, inv:0	146	3/8	3/8
+242	G:M, inv:0	147	0	0

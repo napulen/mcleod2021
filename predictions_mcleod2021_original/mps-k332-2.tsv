@@ -1,0 +1,151 @@
+	label	mc	mc_onset	mn_onset
+0	Eb:KeyMode.MAJOR	0	0	0
+1	Bb:M, inv:0	0	0	0
+2	Eb:M, inv:1	1	0	0
+3	Eb:M, inv:0	1	1/4	1/4
+4	Bb:M, inv:1	1	1/2	1/2
+5	Eb:M, inv:0	2	0	0
+6	Bb:M, inv:1	2	1/2	1/2
+7	Bb:KeyMode.MAJOR	3	0	0
+8	F:Mm7, inv:1	3	0	0
+9	Eb:KeyMode.MAJOR	3	1/4	1/4
+10	Bb:M, inv:0	3	1/4	1/4
+11	Bb:M, inv:1	3	1/2	1/2
+12	Bb:KeyMode.MAJOR	3	3/4	3/4
+13	F:Mm7, inv:0	3	3/4	3/4
+14	Eb:KeyMode.MAJOR	4	0	0
+15	Bb:m, inv:0	4	0	0
+16	F:m, inv:1	4	1/2	1/2
+17	Bb:M, inv:0	5	0	0
+18	Bb:m, inv:1	5	3/4	3/4
+19	f:KeyMode.MINOR	6	0	0
+20	E:o7, inv:3	6	0	0
+21	Eb:KeyMode.MAJOR	7	0	0
+22	Ab:M, inv:1	7	0	0
+23	f:KeyMode.MINOR	7	1/4	1/4
+24	C:Mm7, inv:0	7	1/4	1/4
+25	Bb:KeyMode.MAJOR	7	1/2	1/2
+26	F:M, inv:0	7	1/2	1/2
+27	F:M, inv:1	7	3/4	3/4
+28	F:KeyMode.MAJOR	8	0	0
+29	C:Mm7, inv:1	8	0	0
+30	C:M, inv:0	8	1/4	1/4
+31	Bb:KeyMode.MAJOR	8	3/4	3/4
+32	F:M, inv:0	8	3/4	3/4
+33	F:KeyMode.MAJOR	9	0	0
+34	C:Mm7, inv:1	9	0	0
+35	C:Mm7, inv:0	9	1/4	1/4
+36	Bb:KeyMode.MAJOR	9	1/2	1/2
+37	F:M, inv:0	9	1/2	1/2
+38	Bb:M, inv:0	10	0	0
+39	G:m, inv:0	10	1/4	1/4
+40	g:KeyMode.MINOR	10	1/2	1/2
+41	D:Mm7, inv:0	10	1/2	1/2
+42	Bb:KeyMode.MAJOR	10	3/4	3/4
+43	G:m, inv:0	10	3/4	3/4
+44	F:M, inv:1	11	0	0
+45	F:KeyMode.MAJOR	11	1/4	1/4
+46	C:Mm7, inv:0	11	1/4	1/4
+47	Bb:KeyMode.MAJOR	11	1/2	1/2
+48	F:M, inv:0	11	1/2	1/2
+49	F:KeyMode.MAJOR	12	0	0
+50	C:Mm7, inv:1	12	0	0
+51	C:M, inv:0	12	1/4	1/4
+52	Bb:KeyMode.MAJOR	12	3/4	3/4
+53	F:M, inv:0	12	3/4	3/4
+54	F:KeyMode.MAJOR	13	0	0
+55	C:Mm7, inv:1	13	0	0
+56	C:Mm7, inv:0	13	1/4	1/4
+57	Bb:KeyMode.MAJOR	13	1/2	1/2
+58	F:M, inv:0	13	1/2	1/2
+59	Bb:M, inv:0	14	0	0
+60	G:m, inv:0	14	1/4	1/4
+61	g:KeyMode.MINOR	14	1/2	1/2
+62	D:Mm7, inv:0	14	1/2	1/2
+63	Bb:KeyMode.MAJOR	14	3/4	3/4
+64	G:m, inv:0	14	3/4	3/4
+65	F:M, inv:1	15	0	0
+66	F:KeyMode.MAJOR	15	1/4	1/4
+67	C:M, inv:0	15	1/4	1/4
+68	Bb:KeyMode.MAJOR	15	1/2	1/2
+69	F:M, inv:0	15	1/2	1/2
+70	F:KeyMode.MAJOR	15	3/4	3/4
+71	E:o, inv:1	15	3/4	3/4
+72	Bb:KeyMode.MAJOR	16	0	0
+73	F:M, inv:1	16	0	0
+74	F:M, inv:0	16	1/4	1/4
+75	F:KeyMode.MAJOR	17	0	0
+76	C:M, inv:0	17	0	0
+77	Bb:KeyMode.MAJOR	17	1/4	1/4
+78	F:M, inv:2	17	1/4	1/4
+79	F:KeyMode.MAJOR	17	1/2	1/2
+80	C:Mm7, inv:0	17	1/2	1/2
+81	Bb:KeyMode.MAJOR	18	0	0
+82	F:M, inv:0	18	0	0
+83	F:Mm7, inv:2	19	1/2	1/2
+84	Bb:M, inv:0	20	0	0
+85	Eb:M, inv:0	21	0	0
+86	Bb:M, inv:1	21	1/2	1/2
+87	Eb:M, inv:0	22	0	0
+88	F:Mm7, inv:0	23	0	0
+89	Bb:m, inv:0	24	0	0
+90	F:m, inv:1	24	1/2	1/2
+91	Eb:m, inv:1	25	0	0
+92	Eb:m, inv:0	25	1/4	1/4
+93	Bb:M, inv:1	25	1/2	1/2
+94	F:KeyMode.MAJOR	26	0	0
+95	C:Mm7, inv:0	26	0	0
+96	Bb:KeyMode.MAJOR	27	0	0
+97	F:m, inv:2	27	0	0
+98	F:KeyMode.MAJOR	27	1/4	1/4
+99	C:Mm7, inv:0	27	1/4	1/4
+100	Bb:KeyMode.MAJOR	27	1/2	1/2
+101	F:M, inv:0	27	1/2	1/2
+102	F:M, inv:1	28	0	0
+103	F:M, inv:0	28	1/4	1/4
+104	Eb:KeyMode.MAJOR	28	3/4	3/4
+105	Bb:Mm7, inv:0	28	3/4	3/4
+106	Bb:KeyMode.MAJOR	29	0	0
+107	F:Mm7, inv:0	29	0	0
+108	Eb:KeyMode.MAJOR	29	1/2	1/2
+109	Bb:M, inv:0	29	1/2	1/2
+110	Eb:M, inv:0	30	0	0
+111	C:m, inv:1	30	1/4	1/4
+112	c:KeyMode.MINOR	30	1/2	1/2
+113	G:Mm7, inv:0	30	1/2	1/2
+114	Eb:KeyMode.MAJOR	30	3/4	3/4
+115	C:m, inv:0	30	3/4	3/4
+116	Bb:M, inv:1	31	0	0
+117	Bb:KeyMode.MAJOR	31	1/4	1/4
+118	F:Mm7, inv:0	31	1/4	1/4
+119	Eb:KeyMode.MAJOR	31	1/2	1/2
+120	Bb:M, inv:0	31	1/2	1/2
+121	Bb:KeyMode.MAJOR	32	0	0
+122	F:Mm7, inv:0	32	0	0
+123	Eb:KeyMode.MAJOR	32	1/2	1/2
+124	Bb:M, inv:0	32	1/2	1/2
+125	Bb:KeyMode.MAJOR	33	0	0
+126	F:Mm7, inv:0	33	0	0
+127	Eb:KeyMode.MAJOR	33	1/2	1/2
+128	Bb:M, inv:0	33	1/2	1/2
+129	Eb:M, inv:1	34	0	0
+130	c:KeyMode.MINOR	34	1/2	1/2
+131	G:Mm7, inv:0	34	1/2	1/2
+132	Eb:KeyMode.MAJOR	34	3/4	3/4
+133	C:m, inv:0	34	3/4	3/4
+134	Bb:M, inv:1	35	0	0
+135	Bb:KeyMode.MAJOR	35	1/4	1/4
+136	F:M, inv:0	35	1/4	1/4
+137	Eb:KeyMode.MAJOR	35	1/2	1/2
+138	Bb:M, inv:0	35	1/2	1/2
+139	Bb:KeyMode.MAJOR	35	3/4	3/4
+140	A:o, inv:1	35	3/4	3/4
+141	Eb:KeyMode.MAJOR	36	0	0
+142	Bb:M, inv:1	36	0	0
+143	Bb:Mm7, inv:1	36	1/4	1/4
+144	Eb:M, inv:0	36	1/2	1/2
+145	Bb:M, inv:0	37	0	0
+146	Bb:KeyMode.MAJOR	37	1/2	1/2
+147	F:Mm7, inv:0	37	1/2	1/2
+148	Eb:KeyMode.MAJOR	38	0	0
+149	Bb:M, inv:0	38	0	0
