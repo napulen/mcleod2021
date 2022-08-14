@@ -1,7 +1,7 @@
 import os
-import re
 import pandas as pd
 import music21
+import numpy as np
 
 
 quarter_length = {
@@ -28,9 +28,9 @@ quality_intervals = {
 
 
 def fraction_to_quarterlength(fraction):
-    if fraction == "0":
+    if fraction in ["0", 0]:
         return 0.0
-    elif fraction == "1":
+    elif fraction in ["1", 1]:
         return 4.0
     num, den = fraction.split("/")
     quarterLength = quarter_length[den] * int(num)
@@ -68,17 +68,20 @@ def chord_tuple_to_roman_numeral(chord, key):
     root, quality, inversion = chord
     rootobj = music21.note.Note(f"{root}4")
     intervals = quality_intervals[quality]
-    upperNotes = [rootobj.transpose(i) for i in intervals]
-    notes = [rootobj] + upperNotes
-    chordobj = music21.chord.Chord(notes[inversion:] + notes[:inversion])
+    notes = [rootobj] + [rootobj.transpose(i) for i in intervals]
+    notes[inversion].octave -= 1
+    chordobj = music21.chord.Chord(notes)
     rn = music21.roman.romanNumeralFromChord(chordobj, key)
     return rn
 
 
-def events_to_rntxt(events):
+def events_to_rntxt(events, ts):
     key = "C"
     rntxt = ""
     for mm_number, mm in events.items():
+        newts = ts.get(mm_number, None)
+        if newts:
+            rntxt += f"\nTime Signature: {newts}\n\n"
         rntxt += f"m{mm_number}"
         for beat_number, beat in mm.items():
             if beat_number.is_integer():
@@ -94,22 +97,62 @@ def events_to_rntxt(events):
     return rntxt
 
 
+def _measureNumberShift(m21Score):
+    firstMeasure = m21Score.parts[0].measure(0) or m21Score.parts[0].measure(1)
+    isAnacrusis = True if firstMeasure.paddingLeft > 0.0 else False
+    if isAnacrusis and firstMeasure.number == 1:
+        measureNumberShift = -1
+    else:
+        measureNumberShift = 0
+    return measureNumberShift
+
+
+def retrieve_beats_from_score(m21s, mmshift=0):
+    beats = {}
+    for n in m21s.recurse().notesAndRests:
+        mm = n.measureNumber + mmshift
+        offset = n.offset
+        beat = n.beat
+        if mm not in beats:
+            beats[mm] = {}
+        if offset not in beats[mm]:
+            beats[mm][offset] = round(float(beat), 3)
+        else:
+            print("WARNING: duplicate offset")
+    return beats
+
+
 def main():
-    root = "outputs"
+    root_pred = "outputs"
+    root_mxl = "phd_testset_chordified"
     events = {}
-    for f in sorted(os.listdir(root)):
-        path = os.path.join(root, f)
+    for f in sorted(os.listdir(root_pred)):
+        path = os.path.join(root_pred, f)
+        pathscore = os.path.join(root_mxl, f.replace(".tsv", ".xml"))
+        s = music21.converter.parse(pathscore, forceSource=True)
+        mmshift = _measureNumberShift(s)
+        ts = {
+            (ts.measureNumber + mmshift): ts.ratioString
+            for ts in s.flat.getElementsByClass("TimeSignature")
+        }
+        beats = retrieve_beats_from_score(s, mmshift)
         print(path)
         df = pd.read_csv(path, sep="\t")
-        df["quarterLength"] = df["mc_onset"].apply(fraction_to_quarterlength)
-        df["beat"] = df["quarterLength"] + 1
-        if df["mc_onset"][0] == "0":
+        # relative offset in measure
+        df["offset"] = df["mc_onset"].apply(fraction_to_quarterlength)
+        if df["mn_onset"][0] == "0":
             df["mc"] = df["mc"] + 1
+        df["beat"] = df.apply(
+            lambda row: beats.get(row.mc, {}).get(row.offset, np.nan), axis=1
+        )
+        # The examples I've debugged, the m21 score is correct,
+        # so blame the mistakes on the alignment of the model and drop those annotations
+        df.dropna(inplace=True)
         df["parsed_label"] = df["label"].apply(parse_label)
         events = compute_events(df)
-        rntxt = events_to_rntxt(events)
+        rntxt = events_to_rntxt(events, ts)
         base, _ = os.path.splitext(f)
-        output = os.path.join(root, f"{base}.rntxt")
+        output = os.path.join(root_pred, f"{base}.rntxt")
         with open(output, "w") as f:
             f.write(rntxt)
 

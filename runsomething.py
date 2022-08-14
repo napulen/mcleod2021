@@ -1,9 +1,12 @@
 import subprocess
 import os
+import time
 
-for f in sorted(os.listdir("phd_testset")):
-    if f.endswith(".mxl") or f.endswith(".musicxml"):
+if __name__ == "__main__":
+    log = open("execution_times.log", "w")
+    for f in sorted(os.listdir("phd_testset")):
         print(f)
+        start = time.time()
         subprocess.call(
             [
                 "python",
@@ -20,3 +23,7 @@ for f in sorted(os.listdir("phd_testset")):
                 "6",
             ]
         )
+        end = time.time()
+        log.write(f"{f}: {end - start:.2f}\n")
+        log.flush()
+    log.close()
